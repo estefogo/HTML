@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="tituloGrande">Cadastro de Pessoas</h1>
+    </div>
+
+    <hr>
+
+    <div style="text-align: center">
+        <label>Instruções:</label>
+        <ul id="lista">
+            <li>Preencha os campos de acordo com suas informações pessoais</li>
+            <li>As informações devem ser verídicas</li>
+            <li>Qualquer problema na utilização da plataforma deve serreportado à equipe de suporte</li>
+        </ul>
+
+    </div>
+    <hr>
+
+    <div style="text-align: center">
+        <label>What is Lorem Ipsum?</label>
+        <p class="alinhado">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <hr>
+    <form action="https://631143c519eb631f9d6fe864.mockapi.io/Cadastro" method="post">
+        <div class="nome">
+            <label>Nome:</label>
+            <input type="text" name="nome" class="input" required>
+            <br><br>
+            <label>Sobrenome:</label>
+            <input type="text" name="sobrenome" class="input" required>
+        </div>
+
+        <div class="email">
+            <br>
+            <label>E-mail:</label>
+            <input type="email" name="email" class="input" required>
+        </div>
+
+
+        <br><br>
+        <hr>
+        <div class="alinhado" >
+            <label>Gênero:</label>
+            <br><br>
+
+            <input type="radio" id="masc" name="genero" value="masc" checked><label for="masc">Masculino</label>
+
+            <input type="radio" name="genero" id="fem" value="fem"><label for="fem">Feminino</label>
+
+            <input type="radio" name="genero" value="naoinform" id="naoinform"><label for="naoinform">Prefiro não
+                informar</label>
+
+        </div>
+
+        <div class="escolaridade alinhado" style="float: right">
+
+            <label>Escolaridade:</label>
+            <br><br>
+            <select id="escolaridade">
+                <option selected disable value="">Selecione
+                <option>Fundamental incompleto</option>
+                <option>Fundamental completo</option>
+                <option>Ensino médio incompleto</option>
+                <option>Ensino médio completo</option>
+                <option>Superior incompleto</option>
+                <option>Superior completo</option>
+                <option>Pós-graduação</option>
+                <option>Mestrado</option>
+                <option>Doutorado</option>
+            </select>
+        </div>
+
+        <br>
+        <hr>
+
+        <fieldset style="text-align: center">
+            <div>
+                <label>Selecione como está seu humor hoje:</label>
+                <br><br>
+                <input type="checkbox" id="humor" value="Triste">
+                <label for="humor" class="opcHumor">Triste</label>
+                <input type="checkbox" id="humor" value="Feliz">
+                <label for="humor" class="opcHumor">Feliz</label>
+                <input type="checkbox" id="humor" value="Com raiva">
+                <label for="humor" class="opcHumor">Com raiva</label>
+                <input type="checkbox" id="humor" value="Preguiçoso">
+                <label for="humor" class="opcHumor">Preguiçoso</label>
+                <input type="checkbox" id="humor" value="Enojado">
+                <label for="humor" class="opcHumor">Enojado</label>
+                <input type="checkbox" id="humor" value="Esperançoso">
+                <label for="humor" class="opcHumor">Esperançoso</label>
+            </div>
+        </fieldset>
+        <hr>
+
+        <div id="almoco" style="text-align: center">
+            <label>Conte o que você almoçou hoje:</label>
+            <br><br>
+            <textarea row="6" style="width: 26em" id="almoco" name="almoco" ></textarea>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div style="text-align: center">
+            <button type="submit" id="button">Concluído</button>
+        </div>
+        <br><br>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana;
+    background-color: #FFC0CB;
+    font-size: 19px;
+}
+
+.direita {
+    text-align: right;
+    background-color: aquamarine;
+
+}
+
+label {
+    color: #B22222;
+    font-weight: bold;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.tituloGrande {
+    text-align: center;
+    color: #B22222;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+#escolaridade {
+    font-size: 15px;
+    text-align: left;
+    color: #B22222;
+    font-weight: lighter;
+    font-family: Verdana;
+}
+
+#humor {
+    background-color: #FFE4E1;
+    margin: 0px;
+    border: 0px;
+}
+
+.opcHumor {
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+li {
+    line-height: 2;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: #B22222;
+    line-height: 2;
+}
+
+.alinhado {
+    display: inline-block;
+}
+
+#opcGenero {
+    font-weight: lighter;
+}
+
+#button {
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    color: #B22222;
+    font-family: Verdana;
+}
+
+#lista {
+    color: #B22222;
+}
+
+.input {
+    width: 1100px;
+}
+

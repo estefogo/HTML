@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Generic - Phantom by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner" style="text-align:center">
+
+				<!-- Logo -->
+				<a href="index.html" class="logo">
+					<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Escola de
+						Prodígios</span>
+				</a>
+
+			</div>
+		</header>
+
+		<!-- Main -->
+		<form action="https://631143c519eb631f9d6fe864.mockapi.io/Alunos" method="post">
+			<div id="main" style="text-align:center">
+				<div class="inner">
+					<h1>Matrículas</h1>
+
+					<h3>Informações do aluno:</h3>
+					<label style="text-align:left">Nome do aluno:</label>
+					<div class="col-6 col-12-mobile">
+						<input type="text" name="nome-aluno" placeholder="Digite o nome" required>
+					</div>
+					<br>
+					<br>
+					<h2><label style="text-align:center">Endereço</label></h2>
+					<div class="col-6 col-12-mobile">
+						<label style="text-align:left">Rua:</label>
+						<input type="text" name="endereco-aluno" placeholder="Digite a rua" style="text-align:left">
+					</div>
+					<br>
+					<div class="col-6 col-12-mobile">
+						<label style="text-align:left">Número:</label>
+						<input type="text" class="form" name="numero-aluno" placeholder="Digite o número">
+					</div>
+					<br>
+					<div class="col-6 col-12-mobile">
+						<label style="text-align:left">Bairro:</label>
+						<input type="text" class="form" name="bairro-aluno" placeholder="Digite o bairro">
+					</div>
+					<br>
+					<label style="text-align:left">Cidade:</label>
+					<div class="col-6 col-12-mobile">
+						<input type="text" class="form" name="cidade-aluno" placeholder="Digite a cidade">
+					</div>
+					<br>
+					<label style="text-align:left">Estado:</label>
+					<div class="col-6 col-12-mobile">
+						<select name="estado-aluno">
+							<option value="SP" selected>Selecione o estado</option>
+							<option value="SP">SP</option>
+							<option value="RS">RJ</option>
+							<option value="PR">PR</option>
+							<option value="MG">MG</option>
+							<option value="AM">AM</option>
+							<option value="AC">AC</option>
+							<option value="MA">MA</option>
+							<option value="BA">BA</option>
+						</select>
+					</div>
+					<br>
+					<div class="col-6 col-12-mobile">
+						<label style="text-align:left">CEP:</label>
+						<input type="text" class="form" pattern="[0-9]{5}-[0-9]{3}" title="Digite o CEP"
+							name="cep-aluno" placeholder="Digite o CEP no formato: 99999-999">
+					</div>
+					<br>
+					<label style="text-align:left">Complemento:</label>
+					<div class="col-6 col-12-mobile"><input type="text" class="form" name="complemento-aluno"
+							placeholder="Digite o complemento"></div>
+					<br>
+
+					<h2><label style="text-align:center">Sobre o aluno</label></h2>
+					<br>
+					<label style="text-align:left">Telefone fixo:</label>
+					<div class="col-6 col-12-mobile"><input type="text" class="form" name="telefone-aluno"
+							placeholder="Digite o telefone"></div>
+					<br>
+					<label style="text-align:left">Celular:</label>
+					<div class="col-6 col-12-mobile">
+						<input type="text" class="form" name="celular-aluno" placeholder="Digite o celular" required>
+					</div>
+					<br>
+					<label style="text-align:left">E-mail:</label>
+					<div class="col-6 col-12-mobile">
+						<input type="text" class="form" name="email-aluno" placeholder="Digite o e-mail" required>
+					</div>
+					<br>
+					<label style="text-align:left">Etnia:</label>
+					<div class="col-6 col-12-mobile">
+						<select name="cor-aluno" required>
+							<option value="nao-informar" selected>Selecione a etnia</option>
+							<option value="branco">Branco</option>
+							<option value="preto">Preta</option>
+							<option value="pardo">Pardo</option>
+							<option value="amarelo">Amarelo</option>
+							<option value="indigena">Indigena</option>
+							<option value="indigena">Prefiro não informar</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="separador"></div>
+
+				<br>
+				<br>
+
+				<header>
+					<h2>Informações dos Pais</h2>
+					<h2 style="text-align:center"> -- Pai --</h2>
+				</header>
+
+				<div class="inner">
+
+
+					<div class="col-6 col-12-mobile">
+						<label style="text-align:left">Nome:</label>
+						<input type="text" name="nome-pai" placeholder="Digite o nome do pai" required>
+					</div>
+					<label style="text-align:left"></label>
+					<div class="col-6 col-12-mobile" style="text-align:left">
+						<br>
+						<label style="text-align:left">Data de nascimento:</label>
+						<input type="date" name="dt-nasc-pai" placeholder="Data de nascimento do pai">
+						<div class="col-6 col-12-mobile">
+							<br>
+							<label style="text-align:left">Naturalidade:</label>
+							<input type="text" name="naturalidade-pai" placeholder="Digite a naturalidade do pai">
+						</div>
+						<div class="col-6 col-12-mobile">
+							<br>
+							<label style="text-align:left">Profissão:</label>
+							<input type="text" name="profissao-pai" placeholder="Digite a profissao do pai">
+							<div class="col-6 col-12-mobile">
+								<br>
+								<label style="text-align:left">Grau de instrução:</label>
+								<select name="instrucao-pai">
+									<option value="Ensino médio" selected>Selecione o grau de instrução do pai</option>
+									<option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+									<option value="Ensino fundamental completo">Ensino fundamental completo</option>
+									<option value="Ensino médio incompleto">Ensino médio incompleto</option>
+									<option value="Ensino médio completo">Ensino médio completo</option>
+									<option value="Ensino superior incompleto">Ensino superior incompleto</option>
+									<option value="Ensino superior completo">Ensino superior completo</option>
+								</select>
+								<br>
+								<label style="text-align:left">Celular:</label>
+								<div class="col-6 col-12-mobile">
+									<input type="text" name="celular-pai" placeholder="Digite o celular do pai"
+										required>
+								</div>
+								<br>
+								<label style="text-align:left">E-mail:</label>
+								<div class="col-6 col-12-mobile">
+									<input type="text" name="email-pai" placeholder="Digite o e-mail do pai" required>
+								</div>
+								<br>
+								<label style="text-align:left">CPF:</label>
+								<div class="col-6 col-12-mobile">
+									<input type="text" name="cpf-pai" placeholder="Digite o CPF do pai" required>
+								</div>
+								<br>
+								<div class="col-6 col-12-mobile">
+									<label>O pai é o responsável financeiro?</label>
+									<input type="radio" id="paiResponsavelSim" value="Sim" name="paiResponsavel">
+									<label for="paiResponsavelSim">Sim</label>
+									<input type="radio" id="paiResponsavelNao" value="Nao" name="paiResponsavel">
+									<label for="paiResponsavelNao">Não</label>
+								</div>
+								<br>
+
+								<header>
+									<h2 style="text-align:center"> -- Mãe --</h2>
+								</header>
+
+								<div class="row">
+									<label>Nome:</label>
+								</div>
+								<div class="col-6 col-12-mobile">
+									<input type="text" name="nome-mae" placeholder="Digite o nome da mãe" required>
+								</div>
+
+								<div class="col-6 col-12-mobile">
+									<br>
+									<label>Data de nascimento:</label>
+									<input type="date" name="dt-nasc-mae" placeholder="Data de nascimento da mãe">
+								</div>
+								<div class="col-6 col-12-mobile">
+									<br>
+									<label>Naturalidade:</label>
+									<input type="text" name="naturalidade-mae"
+										placeholder="Digite a naturalidade da mãe">
+								</div>
+								<div class="col-6 col-12-mobile">
+									<br>
+									<label>Profissão:</label>
+									<input type="text" name="profissao-mae" placeholder="Digite a profissão da mãe">
+								</div>
+							</div>
+							<br>
+							<label>Instrução:</label>
+							<div class="col-6 col-12-mobile">
+								<select name="instrucao-mae">
+									<option value="Ensino médio" selected>Selecione o grau de instrução da mãe</option>
+									<option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+									<option value="Ensino fundamental completo">Ensino fundamental completo</option>
+									<option value="Ensino médio incompleto">Ensino médio incompleto</option>
+									<option value="Ensino médio completo">Ensino médio completo</option>
+									<option value="Ensino superior incompleto">Ensino superior incompleto</option>
+									<option value="Ensino superior completo">Ensino superior completo</option>
+								</select>
+							</div>
+
+							<div class="col-6 col-12-mobile">
+								<br>
+								<label>Celular:</label>
+								<input type="text" name="celular-mae" placeholder="Digite o celular da mãe" required>
+							</div>
+							<div class="col-6 col-12-mobile">
+								<br>
+								<label>E-mail:</label>
+								<input type="text" name="email-mae" placeholder="Digite o e-mail da mãe" required>
+							</div>
+							<div class="col-6 col-12-mobile">
+								<br>
+								<label>CPF:</label>
+								<input type="text" name="cpf-mae" placeholder="Digite o CPF da mãe" required>
+							</div>
+							<br>
+							<div class="col-6 col-12-mobile">
+								<label>A mãe é a responsável financeira?</label>
+								<input type="radio" id="maeResponsavelSim" value="Sim" name="maeResponsavel">
+								<label for="maeResponsavelSim">Sim</label>
+								<input type="radio" id="maeResponsavelNao" value="Nao" name="maeResponsavel">
+								<label for="maeResponsavelNao">Não</label>
+							</div>
+							<div>
+
+							</div>
+
+							<div class="separador"></div>
+
+							<header>
+								<br><br>
+								<h2 style="text-align: center">Informações do Curso</h2>
+								<h4 style="text-align: center">-- Insira as informações do curso desejado --</h4>
+							</header>
+
+							<div>
+								<label>Nome:</label>
+								<div>
+									<input type="text" name="nome-curso" placeholder="Digite o nome do curso" required>
+								</div>
+								<br><label>Valor:</label>
+								<div>
+									<input type="text" name="valor-curso" placeholder="Digite o valor do curso" required>
+								</div>
+								<div>
+									<br>
+									<label for="dt-ingresso">Data de ingresso:</label>
+									<input type="date" name="dt-ingresso" required>
+								</div>
+								<div>
+									<br>
+									<label>Forma de pagamento:</label>
+									<select name="forma-pgto" required>
+										<option value="avista" selected>Selecione a forma de pagamento</option>
+										<option value="À vista">À vista</option>
+										<option value="Crédito">Crédito</option>
+										<option value="Débito">Débito</option>
+										<option value="Pix">Pix</option>
+									</select>
+								</div>
+								<div>
+									<label>No caso da forma de pagamento ser <b>crédito</b>, informe a quantidade de parcelas:</label>
+									<input type="number" name="qtdeParcelas">
+								</div>
+								<br>
+								<div style="text-align: center">
+									<input type="submit" value="MATRICULAR" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	</form>
+	</div>
+	</section>
+
+	</div>
+
+
+	</div>
+	</div>
+	</form>
+
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

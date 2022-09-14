@@ -1,0 +1,141 @@
+body {
+    font-family: Verdana;
+    background-color: white;
+    font-size: 19px;
+}
+
+.direita {
+    text-align: right;
+    background-color: aquamarine;
+
+}
+
+label {
+    color: #B22222;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.tituloGrande {
+    text-align: center;
+    color: #B22222;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+#escolaridade {
+    font-size: 15px;
+    text-align: left;
+    color: #B22222;
+    font-weight: lighter;
+    font-family: Verdana;
+}
+
+#humor {
+    background-color: #FFE4E1;
+    margin: 0px;
+    border: 0px;
+}
+
+.opcHumor {
+    font-weight: lighter;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    line-height: 2px;
+}
+
+p {
+    line-height: 2px;
+}
+
+.alinhado {
+    display: inline;
+}
+
+.bloco {
+    display: block;
+}
+
+.opcGenero {
+    font-weight: lighter;
+}
+
+#tb1 {
+    background-color: #FFE4E1;
+    border-collapse: collapse;
+}
+
+#principal {
+    font-family: Arial;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    color: #280;
+}
+
+#titulo {
+    font-family: Arial;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 15px;
+    background-color: #FFF;
+}
+
+#origem {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #280;
+    background-color: #FFF;
+}
+
+#resumo {
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #FFF;
+}
+
+#rodape {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 11px;
+    text-align: center;
+    background-color: #CFB;
+}
+
+#tb1 {
+    border: solid 1px;
+    border-color: black;
+    width: 766px;
+    height: 36px;
+    background-color: #000033;
+}
+
+#link {
+    background-color: white;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    color: #0000FF;
+}
+
+a:visited {
+    color: #DDC71A;
+}
+
+a:active {
+    color: #AC0B44 ;
+}
+
+a:hover {
+    color: #FF0000;
+}
